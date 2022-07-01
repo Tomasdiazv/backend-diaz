@@ -11,13 +11,13 @@ class Usuario {
     }
 
     addBook() {
-        const e = {"libro":this.libros,"auor":"pixula"};
+        const e = {"libro":this.libros,"autor":"J. K. Rowling"};
         return e;
     }
 
     getBookName() {
        const r =  p.addBook();
-       console.log("HOLA HOLA "+p.addBook());
+       console.log(r);
     }
 
     addMascota(a) {
